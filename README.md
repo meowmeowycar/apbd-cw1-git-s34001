@@ -1,1 +1,3 @@
 Po utworzeniu brancha feature-max, na glownym branchu main pojawil sie nowy niezalezny commit z plikiem README i to uniemozliwilo Gitowi proste przewiniecie historii do przodu i wymusilo na nim polaczenie tych rozgalezien za pomoca innego merge.
+
+(KOMENTARZ POD REBASE czy cos)
