@@ -4,7 +4,7 @@
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("mirësevini në aplikacionin e statistikave");
+			Console.WriteLine("Welcome to the Statistics app");
 			int[] numbers = [6, 7, 6, 7, 6, 7];
 
 			if (numbers.Length == 0 || numbers == null)
