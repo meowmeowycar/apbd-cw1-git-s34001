@@ -6,7 +6,11 @@
 		{
 			Console.WriteLine("Welcome to the Statistics app");
 			int[] numbers = [6, 7, 6, 7, 6, 7];
+
+			foreach (var number in numbers)
+			{
+				Console.WriteLine(number);
+			}
 		}
-	
 	}
 }
