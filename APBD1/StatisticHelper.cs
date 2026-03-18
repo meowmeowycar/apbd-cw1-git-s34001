@@ -38,6 +38,16 @@ public class StatisticHelper
     }
     public static int CalculateMin(int[] values)
     {
-        return 0;
+        if (values == null || values.Length == 0)
+        {
+            return 0;
+        }
+        
+        int min = values[0];
+        foreach (var val in values)
+        {
+            if (val < min) min = val;
+        }
+        return min;
     }
 }
